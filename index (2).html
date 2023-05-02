@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <script src="service-worker.js"></script>
+   <meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <script>
+   function changeBackground(imageUrl) {
+  document.body.style.backgroundImage = "url('" + imageUrl + "')";
+     document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundRepeat = "no-repeat";
+}
+  </script>
+  
+ <title>PWA</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+ <link rel="manifest" href="/manifest.json">
+
+  
+</head>
+
+
+<body class="m-2">
+
+   <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+  <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="backgroundDropdown" data-toggle="dropdown"  aria-expanded="false">
+    Select Background Image
+  </button>
+  <div class="dropdown-menu" aria-labelledby="backgroundDropdown">
+    <a class="dropdown-item" href="#" onclick="changeBackground('lightblue.jpg')">Blue</a>
+    <a class="dropdown-item" href="#" onclick="changeBackground('lightgold.jpg')">Light Gold</a>
+  </div>
+  </div>
+</div>
+    </div>
+   </div>
+
+ <div class="row">
+      <div class="col-md-12">
+  <h1> Progressive Web Application</h1>
+
+<p> 
+  Progressive web applicatinos (pwa) provides us with many benefits. It gives us the ability to develop fast performing web applications suitable for users. Users can install the app on their system that can work offline. Despite their network status, it can launch quickly without an issue. Thus, users won't have to be concerned about problems with internet speed or slow loading websites. It is accessible anywhere! </p>
+  <p>
+  Also, it is more convient because they don't have to deliberately go to an app store to download their app. In addition, it makes their experience more engaging. Push notifications are offered to users to keep them notified and involved with the app. Even without the browser opened, the push notifications can send reminders to users. 
+</p>
+      </div>
+ </div>
+
+  
+</body>
+
+
+  
+</html>
