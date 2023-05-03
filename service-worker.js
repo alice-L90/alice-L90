@@ -1,12 +1,12 @@
 var CACHE_VERSION = 'Waddle-v1';
 var CACHE_FILES = [
     '/',
-  '/index.html',
+  '/pwa.html',
   'duck.png',
   'app.js',
   'service-worker.js',
   'manifest.json',
-    'style.css',
+    'pwa.css',
   'lightblue.jpg',
   'lightgold.jpg',
   ];
