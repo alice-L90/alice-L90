@@ -1,10 +1,9 @@
 html {
   height: 100%;
   width: 100%;
+      background-color: lightblue;
 }
-body {
-  background-color: lightpurple;
-}
+
 .phoneGap, .conclusion, .flutter, .react {
     background-color: lightblue;
   padding: 3vh;
