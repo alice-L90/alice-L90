@@ -1,14 +1,9 @@
-var CACHE_VERSION = 'Waddle-v1';
+var CACHE_VERSION = 'myWeb-v1';
 var CACHE_FILES = [
-    '/',
-  '/pwa.html',
-  'duck.png',
+  '/',
   'app.js',
   'service-worker.js',
-  'manifest.json',
-    'pwa.css',
-  'lightblue.jpg',
-  'lightgold.jpg',
+    'style.css',
   ];
 
 self.addEventListener('install', event => {
